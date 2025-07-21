@@ -22,7 +22,7 @@ function Login() {
       const {_id,role} = res.data.user
       console.log(role,res.data.user)
       navigate("/vehiclesDashBoard");
-      // navigate("/DriverDashboard");
+      //navigate("/DriverDashboard");
       // navigate("/LeafletRoutePlanner");
       // navigate("/MaintenanceDashboard");
     } catch (err) {
